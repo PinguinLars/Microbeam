@@ -1,0 +1,2 @@
+#!/usr/bin/fish
+docker build -t microbit-tools --output out .
