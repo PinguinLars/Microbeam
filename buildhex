@@ -1,2 +1,4 @@
 #!/usr/bin/fish
+#can probably be any shell
 docker build -t microbit-tools --output out .
+gdb --batch --command=deploy.gdb
